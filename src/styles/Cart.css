@@ -45,13 +45,14 @@
 }
 
 .cartItem h1{
+  position: relative;
   font-size: medium;
-  display: inline-block;
   position: relative;
   margin-left: 260px;
 
 }
 .cartItem p {
+  font-size: small;
   position: relative;
   margin-left: 260px;
 }
