@@ -5,8 +5,10 @@ import Home from "./pages/Home";
 import Shop from "./pages/Shop";
 import About from "./pages/About";
 import SignIn from "./pages/SignIn";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Additems from "./pages/Additems";
+import Cart from "./pages/Cart"
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
           <Route path="/about" exact component={About} />
           <Route path="/signin" exact component={SignIn} />
           <Route path="/additems" exact component={Additems} />
+          <Route path="/cart" exact component={Cart}/>
         </Switch>
         <Footer />
       </Router>

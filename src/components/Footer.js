@@ -13,7 +13,7 @@ function Footer() {
       </div>
       <p> &copy; 2022 agora.com</p>
     </div>
-  );
+  );  
 }
 
 export default Footer;
