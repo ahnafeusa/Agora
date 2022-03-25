@@ -18,6 +18,10 @@
   width: 120px;
 }
 
+.navbar .rightSide img {
+  width: 50px;
+}
+
 .navbar .rightSide {
   flex: 50%;
   height: 100%;
